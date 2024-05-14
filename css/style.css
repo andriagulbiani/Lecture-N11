@@ -1,0 +1,65 @@
+.header-text {
+    margin: 5vw 0vw 5vw 10vw;
+    border: solid 1px orangered;
+
+    p {
+        font-family: "Roboto", sans-serif;
+        font-weight: 700;
+        font-size: 17px;
+        line-height: 19.55px;
+        color: #5863E3;
+    }
+
+    h1 {
+        font-family: "Roboto", sans-serif;
+        font-weight: 400;
+        font-size: 49px;
+        line-height: 56.35px;
+        color: #000000;
+    }
+}
+
+form {
+    display: flex;
+}
+
+.description-div {
+    margin-left: 10vw;
+    margin-right: 2vw;
+
+    input {
+        width: 760px;
+        height: 300px;
+        background-color: #F8F8F8;
+        border: solid 2px #00000033;
+        border-radius: 15px;
+    }
+}
+
+.login-div {
+    display: flex;
+    flex-direction: column;
+    max-width: 370px;
+
+    input {
+        border-radius: 10px;
+        background-color: #F8F8F8;
+        border: solid 2px #00000033;
+        width: 370px;
+        height: 59px;
+    }
+
+    .submit {
+        background-color: #5968F4;
+        border: none;
+    }
+
+    .name {
+        margin-top: 20px;
+    }
+
+    .mail {
+        margin-top: 20px;
+        margin-bottom: 20px;
+    }
+}
