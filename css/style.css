@@ -176,16 +176,15 @@ form {
 footer {
     display: flex !important;
     flex-direction: row;
-    justify-content: space-evenly;
     width: 100%;
     height: 372px;
     background-color: black;
 
     div {
-        max-width: 130px !important;
         max-height: 15vh;
         display: flex;
         flex-direction: column;
+        margin-top: 65px;
     }
 
     p {
@@ -193,6 +192,7 @@ footer {
         font-weight: 400;
         font-size: 1.4vw;
         color: #FFFFFF;
+        margin-bottom: 10px;
     }
 
     li {
@@ -200,12 +200,13 @@ footer {
         font-weight: 400;
         font-size: 1vw;
         color: #5863E3;
+        line-height: 30px;
     }
 }
 
 .footer-info {
-    margin: 15px;
-    max-width: 295px;
+    max-width: 230px !important;
+    margin: 65px 190px 110px 140px;
     
     h4 {
         font-family: "Roboto", sans-serif;
@@ -219,35 +220,35 @@ footer {
         font-weight: 700;
         font-size: 1vw;
         color: #99999A;
+        margin: 10px 0px -50px 0px;
     }
 }
 
 .footer-image {
     display: flex;
     flex-direction: row;
-    margin-top: 20px;
-
     img {
         width: 2.5vw;
+        margin: 0px 5px;
     }
 }
 
-.useful-links {
-    margin: 15px;
-}
-
 .privacy {
-    margin: 15px;
+    margin: 65px 100px;
 }
 
 .contact-info {
-    margin: 15px;
 
     li {
         font-family: "Roboto", sans-serif;
-        font-weight: 700;
+        font-weight: 400;
         font-size: 1vw;
         color: #FFFFFF;
     }
 
+    i {
+        font-size: 15px;
+        color: #344188;
+        margin-right: 10px;
+    }
 }
