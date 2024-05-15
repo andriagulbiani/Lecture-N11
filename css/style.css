@@ -90,3 +90,60 @@ form {
         outline: none;
     }
 }
+
+.section2 {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+
+    i {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        color: #344188;
+        background-color: #5968F4;
+        width: 70px;
+        height: 70px;
+        font-size: 40px;
+        border-radius: 50%;
+        margin-top: 50px;
+        margin-bottom: 15px;
+    }
+
+    h4 {
+        font-family: "Roboto", sans-serif;
+        font-weight: 700;
+        font-size: 1.5vw;
+        color: #4E4D54;
+        padding: 5px;
+    }
+
+    p { 
+        font-family: "Roboto", sans-serif;
+        font-weight: 700;
+        font-size: 1vw;
+        color: #99999A;
+        padding: 5px;
+    }
+
+    .phone {
+        margin: 0px 325px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .mail { 
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .location { 
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+}
