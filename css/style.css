@@ -167,13 +167,87 @@ form {
 }
 
 .images-div {
-    width: 100vw;
-    display: flex;
+    width: 1000vw;
+    display: flex ;
     justify-content: space-around;
+}
 
+
+footer {
+    display: flex !important;
+    flex-direction: row;
+    justify-content: space-evenly;
+    width: 100%;
+    height: 372px;
+    background-color: black;
+
+    div {
+        max-width: 130px !important;
+        max-height: 15vh;
+        display: flex;
+        flex-direction: column;
+    }
+
+    p {
+        font-family: "Roboto", sans-serif;
+        font-weight: 400;
+        font-size: 1.4vw;
+        color: #FFFFFF;
+    }
+
+    li {
+        font-family: "Roboto", sans-serif;
+        font-weight: 400;
+        font-size: 1vw;
+        color: #5863E3;
+    }
+}
+
+.footer-info {
+    margin: 15px;
+    max-width: 295px;
+    
+    h4 {
+        font-family: "Roboto", sans-serif;
+        font-weight: 700;
+        font-size: 1.4vw;
+        color: #FFFFFF;
+    }
+
+    p {
+        font-family: "Roboto", sans-serif;
+        font-weight: 700;
+        font-size: 1vw;
+        color: #99999A;
+    }
+}
+
+.footer-image {
+    display: flex;
+    flex-direction: row;
+    margin-top: 20px;
 
     img {
+        width: 2.5vw;
+    }
+}
 
+.useful-links {
+    margin: 15px;
+}
+
+.privacy {
+    margin: 15px;
+}
+
+.contact-info {
+    margin: 15px;
+
+    li {
+        font-family: "Roboto", sans-serif;
+        font-weight: 700;
+        font-size: 1vw;
+        color: #FFFFFF;
     }
 
 }
