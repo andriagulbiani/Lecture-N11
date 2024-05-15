@@ -1,20 +1,17 @@
 .header-text {
     margin: 5vw 0vw 5vw 10vw;
-    border: solid 1px orangered;
 
     p {
         font-family: "Roboto", sans-serif;
         font-weight: 700;
-        font-size: 17px;
-        line-height: 19.55px;
+        font-size: 1vw;
         color: #5863E3;
     }
 
     h1 {
         font-family: "Roboto", sans-serif;
         font-weight: 400;
-        font-size: 49px;
-        line-height: 56.35px;
+        font-size: 4vw;
         color: #000000;
     }
 }
@@ -28,38 +25,68 @@ form {
     margin-right: 2vw;
 
     input {
-        width: 760px;
-        height: 300px;
+        width: 52vw;
+        height: 20vw;
         background-color: #F8F8F8;
         border: solid 2px #00000033;
         border-radius: 15px;
+    }
+
+    ::placeholder {
+        position: absolute;
+        font-family: "Roboto", sans-serif;
+        font-weight: 700;
+        font-size: 1.2vw;
+        color: #99999A;
+        top: 2vw;
+        left: 2vw;
+    }
+
+    :focus {
+        outline: none;
     }
 }
 
 .login-div {
     display: flex;
     flex-direction: column;
-    max-width: 370px;
+    max-width: 25vw;
 
     input {
         border-radius: 10px;
         background-color: #F8F8F8;
         border: solid 2px #00000033;
-        width: 370px;
-        height: 59px;
+        width: 25vw;
+        height: 4vw;
     }
 
     .submit {
         background-color: #5968F4;
         border: none;
+        font-family: "Roboto", sans-serif;
+        font-weight: 700;
+        font-size: 1vw;
+        color: #FBFBFF;
     }
 
     .name {
-        margin-top: 20px;
+        margin-top: 1.3vw;
     }
 
     .mail {
-        margin-top: 20px;
-        margin-bottom: 20px;
+        margin-top: 1.3vw;
+        margin-bottom: 1.3vw;
+    }
+
+    ::placeholder {
+        font-family: "Roboto", sans-serif;
+        font-weight: 700;
+        font-size: 1vw;
+        color: #99999A;
+        padding: 1vw;
+    }
+
+    :focus {
+        outline: none;
     }
 }
