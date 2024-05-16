@@ -22,6 +22,8 @@
 
   .description-div {
     input {
+        width: 52vw;
+        height: 20vw;
     }
 
     ::placeholder {
