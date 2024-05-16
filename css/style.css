@@ -167,7 +167,7 @@ form {
 }
 
 .images-div {
-    width: 99vw;
+    width: 98vw;
     display: flex ;
     justify-content: space-around;
 
@@ -228,15 +228,15 @@ footer {
         color: #99999A;
         margin: 0.7vw 0px -3.5vw 0px;
     }
-}
 
-.footer-image {
-    display: flex;
-    flex-direction: row;
-
-    img {
-        width: 2.5vw;
-        margin: 0px 5px;
+    .footer-image {
+        display: flex;
+        flex-direction: row;
+    
+        img {
+            width: 2.5vw;
+            margin: 0px 5px;
+        }
     }
 }
 

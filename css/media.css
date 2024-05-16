@@ -1,0 +1,386 @@
+@media (max-width:1024px) {
+
+    .header-text {
+
+        p {
+            font-size: 2vw;
+        }
+
+        h1 {
+            font-size: 6vw;
+        }
+    }
+
+    .login-div {
+
+        .submit {
+            font-weight: 400;
+            font-size: 1.4vw;
+        }
+
+        ::placeholder {
+            font-size: 1.7vw;
+        }
+    }
+
+    .description-div {
+        
+        input {}
+
+        ::placeholder {
+            font-size: 2vw;
+        }
+    }
+
+    .section2 {
+
+        i {
+            width: 7vw;
+            height: 7vw;
+            font-size: 3.5vw 
+        }
+
+        h4 {
+            font-size: 2.3vw;
+        }
+
+        p {
+            font-size: 1.4vw;
+        }
+
+        .phone {
+            margin: 0px 12vw;
+        }
+    }
+
+    .text-div {
+        p {
+            font-size: 2vw;
+        }
+
+        h2 {
+            font-size: 5vw;
+        }
+    }
+
+    .footer-info {
+        
+        h4 {
+            font-size: 2vw;
+        }
+
+        p {
+            font-size: 1.5vw;
+        }
+    }
+
+    .contact-info {
+        
+        li {
+            font-size: 1.6vw;
+        }
+    }
+
+    footer {
+
+        li {
+            font-size: 1.6vw;
+        }
+
+        p {
+            font-size: 2vw;
+        }
+    }
+
+    .images-div {
+        width: 97vw;
+    }
+}
+
+@media (max-width: 768px) {
+
+    .header-text {
+
+        p {
+            font-size: 3vw;
+        }
+
+        h1 {
+            font-size:6vw;
+        }
+    }
+
+
+
+    form {
+        display: block;
+    }
+
+    .description-div {
+
+        input {
+            width: 85vw;
+            height: 35vw;
+            border: solid 3px #00000033;
+        }
+
+        ::placeholder {
+            font-size: 6vw;
+            padding: 10px;
+        }
+    }
+
+    .login-div {
+        max-width: none;
+        flex-direction: row;
+        margin-left: 10vw;
+        margin-top: 1vw;
+
+        input {
+            width: 21vw;
+            height: 6vw;
+        }
+
+        .name {
+            margin: 0px 5px;
+        }
+
+        .mail {
+            margin: 0px 5px;
+        }
+
+        .submit {
+            width: 16vw;
+            font-size: 3vw;
+        }
+    }
+
+    .footer-info {
+        margin: 3vw 5vw 7vw 6vw;
+        max-width: 136px !important;
+        
+        h4 {
+            font-size: 2.6vw;
+        }
+
+        p {
+            font-size: 1.6vw;
+            margin-bottom: 1px;
+        }
+    }
+
+    .contact-info {
+        
+        li {
+            font-size: 1.6vw;
+            line-height: 4vw;
+        }
+    }
+
+    footer {
+        height: 25vw;
+
+        div {
+            margin-top: 3vw !important;
+        }
+
+        li {
+            font-size: 2vw;
+            line-height: 3vw;
+        }
+
+        p {
+            font-size: 2.5vw;
+        }
+    }
+
+    
+
+}
+
+@media (max-width: 480px) {
+
+    .description-div {
+        margin-bottom: 10px;
+        
+        input {
+            width: 80vw;
+        }
+    }
+
+    .login-div {
+        flex-direction: column;
+        
+        input {
+            width: 80vw;
+            height: 10vw;
+        }
+
+        .name {
+            margin: 5px 0px;
+        }
+
+        .mail {
+            margin: 5px 0px;
+        }
+
+        .submit {
+            width: 80vw;
+            margin-bottom: 20px;
+        }
+
+        ::placeholder {
+            font-size: 3.5vw;
+            padding-left: 15px;
+        }
+    }
+
+    .section2 {
+
+        i {
+            width: 14vw;
+            height: 14vw;
+            font-size: 6vw;
+        }
+
+        h4 {
+            font-size: 4vw;
+        }
+
+        p {
+            font-size: 2.3vw;
+        }
+
+        .phone {
+            margin: 0px 5vw;
+        }
+    }
+
+    .text-div {
+        
+        h2 {
+            font-size: 7.5vw;
+        }
+
+        p {
+            font-size: 5vw;
+        }
+    }
+
+    .images-div {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        width: 89vw;
+        margin-left: 4vw;
+
+        img {
+            max-width: 85%;
+            margin: 20px 0px;
+        }
+    }
+
+    footer {
+        height: 100%;
+        flex-direction: column;
+
+        .footer-info {
+            max-width: 375px !important;
+            margin-left: 10vw;
+            margin-bottom: 100px;
+
+            h4 {
+                font-size: 10vw;
+                margin-left: 6vw;
+            }
+
+            p {
+                font-size: 4vw;
+                margin-left: 1vw;
+            }
+        }
+
+        .footer-image {
+            justify-content: center;
+
+            img {
+                width: 14vw !important;
+            }
+        }
+
+        .useful-links {
+            max-height: none;
+            height: 200px;
+            margin: 0px;
+            
+            ul {
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+            }
+
+            li {
+                font-size: 5vw;
+                line-height: 7vw;
+            }
+
+            p {
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                font-size: 10vw;
+            }
+        }
+
+        .privacy {
+            max-height: none;
+            height: 200px;
+            margin: 0px;
+
+            ul {
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+            }
+
+            li {
+                font-size: 5vw;
+                line-height: 7vw;
+            }
+
+            p {
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                font-size: 10vw;
+            }
+        }
+
+        .contact-info {
+            max-height: none;
+            height: 200px;
+            margin: 0px;
+
+            ul {
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+            }
+
+            li {
+                font-size: 5vw;
+                line-height: 7vw;
+            }
+
+            p {
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                font-size: 10vw;
+            }
+        }
+    }
+
+
+
+}
